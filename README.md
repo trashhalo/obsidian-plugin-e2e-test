@@ -5,6 +5,7 @@ This is a sample repo demonstrating how to write test cases that interact with o
 ## Notable files
 - test/spec.js - This is a mocha test case that is using [spectron](https://www.electronjs.org/spectron) to control obsidian
 - Dockerfile - This will let you run your tests inside CI
+- .github/workflows/action.yml - CI setup so your tests run in github
 
 ## Running the test cases
 
@@ -16,6 +17,7 @@ export OBSIDIAN_PATH=/Applications/Obsidian.app/Contents/MacOS/Obsidian
 ```
 
 ### Linux
+This is the most tested environment since I do local dev on linux.
 ```
 curl -LO https://github.com/obsidianmd/obsidian-releases/releases/download/v0.11.13/Obsidian-0.11.13.AppImage
 chmod +x Obsidian-0.11.13.AppImage
