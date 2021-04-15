@@ -1,0 +1,3 @@
+node_modules
+test/empty_vault/
+!test/empty_vault/.gitkeep
