@@ -1,4 +1,8 @@
 name: Tests
+on:
+  push:
+    branches:
+      - "master"
 jobs:
   e2e_tests:
     name: e2e
