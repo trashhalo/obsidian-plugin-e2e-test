@@ -26,3 +26,7 @@ export OBSIDIAN_PATH=$(pwd)/squashfs-root/obsidian
 
 ### Windows
 I dunno. PRs welcome if you get this working.
+
+## Tips
+- [Spectrons documentation](https://github.com/electron-userland/spectron)
+- [this.app.client is a webdriver browser](https://webdriver.io/docs/api/browser/$)
